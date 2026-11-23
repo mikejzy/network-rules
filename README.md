@@ -9,9 +9,9 @@
 | 来源 | 规则文件 | 条数 | 原策略 |
 | --- | --- | ---: | --- |
 | 手机 Surge「我的直连」 | [surge/my-direct.list](surge/my-direct.list) | 4 | DIRECT（直连） |
-| 公司软路由「我的规则」 | [openclash/my-rules-pikpak.yaml](openclash/my-rules-pikpak.yaml) | 6 | 📺 PikPak（代理） |
+| 公司软路由「我的直连」 | [openclash/my-direct.yaml](openclash/my-direct.yaml) | 104 | DIRECT（直连） |
 
-共 10 条有效规则。两组规则策略不同，分别保存；规则文件本身不指定策略。
+两个文件共 108 条有效规则，包含 2 条两边相同的规则，按匹配类型和域名去重后共 106 条。规则文件本身不指定策略。
 
 ## 以后如何添加
 
