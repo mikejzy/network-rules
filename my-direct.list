@@ -1,5 +1,5 @@
-# 我的直连：合并公司软路由与手机 Surge 原有直连规则
-# 共 106 条；引用时指定 DIRECT 策略。
+# 我的直连：合并公司软路由、家里软路由与手机 Surge 原有直连规则
+# 共 110 条；引用时指定 DIRECT 策略。
 DOMAIN-SUFFIX,duanxiaoli.com
 DOMAIN-SUFFIX,8008205555.cn
 DOMAIN-SUFFIX,8008205555.com
@@ -106,3 +106,7 @@ DOMAIN-SUFFIX,bangbanghu.com.cn
 DOMAIN,pc-main-work.oss-cn-shanghai.aliyuncs.com
 DOMAIN-SUFFIX,hgduanju.icu
 DOMAIN,api.hdvip0.com
+DOMAIN-SUFFIX,ugnas.com
+DOMAIN,prostun-cn.ugreengroup.com
+DOMAIN-SUFFIX,huangguoduanju.net
+DOMAIN,hddjai19.app
