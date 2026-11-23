@@ -1,0 +1,5 @@
+# 来源：手机 Surge「我的直连规则」；引用时使用 DIRECT 策略
+DOMAIN-SUFFIX,hgduanju.icu
+DOMAIN,api.hdvip0.com
+DOMAIN-SUFFIX,shedangjia.com
+DOMAIN-SUFFIX,luxuryadmin.com
