@@ -1,0 +1,4 @@
+# Whatnot 在线规则集
+# 合并自现有 Surge Whatnot 规则，不在文件中指定代理或直连策略。
+DOMAIN-SUFFIX,whatnotapp.com
+DOMAIN-SUFFIX,whatnot.com
