@@ -13,9 +13,9 @@
 
 ## Whatnot
 
-[Whatnot 在线规则：whatnot.list](whatnot.list)包含 `whatnotapp.com` 和 `whatnot.com` 两条域名后缀规则，来源于原有手机 Surge Whatnot 规则。文件不指定策略，设备引用时可选择对应的策略组。
+[Whatnot 在线规则：whatnot.list](whatnot.list)包含 `whatnotapp.com` 和 `whatnot.com` 两条域名后缀规则，以及 `live-video.net` 关键词规则，来源于原有手机 Surge Whatnot 规则。文件不指定策略，设备引用时可选择对应的策略组。原规则使用的 Surge 扩展匹配可在 RULE-SET 引用行启用；OpenClash 的匹配行为需单独核对。
 
-现有手机配置中另有独立的 `cloudfront.net` 规则。CloudFront 是多服务共用的 CDN，本规则集未包含它；直播、支付及第三方服务是否完整覆盖尚未验证。
+`live-video.net` 是 Amazon IVS 共用直播域名，关键词匹配可能影响其他服务。现有手机配置中另有独立的 `cloudfront.net` 规则；CloudFront 是多服务共用的 CDN，本规则集未包含它。直播、支付及第三方服务是否完整覆盖尚未验证。
 
 ## 使用和维护
 
