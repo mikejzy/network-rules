@@ -1,4 +1,6 @@
-# Whatnot 在线规则集
-# 合并自现有 Surge Whatnot 规则，不在文件中指定代理或直连策略。
+# Whatnot 在线规则集，整理自原有手机 Surge Whatnot 规则
+# live-video.net 是 Amazon IVS 共用域名，关键词匹配可能影响其他服务。
+# 引用本文件时选择所需策略；Surge 扩展匹配需在 RULE-SET 引用行启用。
 DOMAIN-SUFFIX,whatnotapp.com
 DOMAIN-SUFFIX,whatnot.com
+DOMAIN-KEYWORD,live-video.net
