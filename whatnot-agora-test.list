@@ -1,3 +1,5 @@
 # Whatnot / Agora 直播测试
 # 引用此清单时，在家用软路由上同时匹配指定手机的源地址。
-DOMAIN-SUFFIX,agora.io
+DOMAIN,ap2.agora.io
+DOMAIN,ap4-tls.agora.io
+DOMAIN,ap.agora.io
