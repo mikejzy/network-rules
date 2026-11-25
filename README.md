@@ -17,7 +17,7 @@
 
 `live-video.net` 是 Amazon IVS 共用直播域名，关键词匹配可能影响其他服务。现有手机配置中另有独立的 `cloudfront.net` 规则；CloudFront 是多服务共用的 CDN，本规则集未包含它。直播、支付及第三方服务是否完整覆盖尚未验证。
 
-[Whatnot 声网测试清单](whatnot-agora-test.list)用 `DOMAIN-SUFFIX,agora.io` 匹配声网主域名和全部子域名。家用软路由引用时同时匹配测试设备的来源地址，以便只对该设备测试分流。
+[Whatnot 声网测试清单](whatnot-agora-test.list)精确匹配 `ap2.agora.io` 和 `ap4-tls.agora.io`。家用软路由引用时同时匹配测试设备的来源地址，以便只对该设备测试分流。
 
 ## 使用和维护
 
